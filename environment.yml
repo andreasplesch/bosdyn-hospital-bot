@@ -1,0 +1,12 @@
+name: pythonocc-environment
+channels:
+  - conda-forge
+dependencies:
+  - pythonocc-core
+  - svgwrite
+  - ipywidgets
+  - numpy
+  - pythreejs
+  - pip
+  - pip:
+    - x3d==0.0.27
